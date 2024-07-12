@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Yeezy;
+    src: url(../fonts/yeezy_tstar-bold-webfont.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    background-color: black;
+}
+.containerFormulario{
+    width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.containerFormulario .grupoFormulario {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.containerFormulario .grupoFormulario label{
+    margin-left: 10px;
+    flex: 1;
+    text-align: left;
+}
+
+.containerFormulario .grupoFormulario input, .containerFormulario .grupoFormulario select, 
+.containerFormulario .grupoFormulario textarea{
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.containerFormulario .grupoFormulario input[type="checkbox"]{
+    width: auto;
+    margin-left: 0;
+}
+
+
+.containerFormulario button{
+    padding: 10px;
+    border: none;
+    background-color: #151788;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 680px;
+}
+
+
+.containerFormulario button:hover{
+    background-color: #9fa0ff;
+    color: black;
+}
+
+#headerForm{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+}
+
+a{
+    font-family: Yeezy;
+    margin:20px 20px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: gray;
+}
